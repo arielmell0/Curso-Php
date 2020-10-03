@@ -1,0 +1,26 @@
+<?php
+
+
+/*
+while( condicao ){
+
+}
+*/
+
+//exemplo
+
+$num = 1;
+
+while( $num < 10 ){
+
+	echo $num;
+	echo '<br>';
+	$num = $num + 1;
+}
+
+
+
+
+
+
+?>
