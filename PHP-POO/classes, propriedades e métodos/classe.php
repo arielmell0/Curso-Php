@@ -1,6 +1,6 @@
 <?php
 
-class Pessoa {
+class Pessoas {
 
     //Atributos
     var $nome; //usar a palavra var para atributos
@@ -22,7 +22,7 @@ class Pessoa {
 }
 
 //Como instanciar a classe
-$pessoa = new Pessoa();
+$pessoa = new Pessoas();
 
 $pessoa -> setNome('Jamilton');//Jamilson seria o parametro $nome_definido
 echo $pessoa -> getNome();

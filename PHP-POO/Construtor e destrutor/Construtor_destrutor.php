@@ -1,5 +1,6 @@
 <?php
 
+//chamados de métodos mágicos __(2 underlines)
 Class Pessoa{
 
     private $nome;
