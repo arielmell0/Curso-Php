@@ -26,6 +26,28 @@ class Calculadora{
 
     }
 
+    //operações
+
+    public function somar(){
+        $this -> total = $this -> numero1 + $this -> numero2;
+    }
+
+    public function subtrair(){
+        $this -> total = $this -> numero1 - $this -> numero2;
+    }
+
+    public function multiplicar(){
+        $this -> total = $this -> numero1 * $this -> numero2;
+    }
+
+    public function dividir(){
+        $this -> total = $this -> numero1 / $this -> numero2;
+    }
+
+    public function getTotal(){
+        return $this -> total;
+    }
+
 }
 
 ?>
