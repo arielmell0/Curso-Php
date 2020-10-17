@@ -1,0 +1,17 @@
+Instanciar é gerar um objeto a partir de uma classe.
+
+a classe seria o molde de um objeto e quando instanciamos esse molde ele vira um objeto.
+
+caneta1 = nova caneta;
+caneta2= nova caneta;
+
+2 canetas (objetos) usando o mesmo molde(classe).
+
+
+Classe 
+Define os atributos e métodos comuns que serão compartilhados
+por um objeto.
+
+Objeto
+É a instancia de uma classe.
+
