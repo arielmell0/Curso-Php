@@ -13,5 +13,5 @@ Define os atributos e métodos comuns que serão compartilhados
 por um objeto.
 
 Objeto
-É a instancia de uma classe.
+É a instância de uma classe.
 
