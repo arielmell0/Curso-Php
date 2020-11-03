@@ -8,7 +8,11 @@
 <body>
     <?php
 
+    require_once('Lutador.php');
 
+    $l = new Lutador('Pretty boy', 'França', 31, 1.75, 68.9, 11, 2, 1);
+
+    $l -> status();
 
     ?>
 </body>
