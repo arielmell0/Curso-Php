@@ -16,20 +16,25 @@ class Lutador{
     //Métodos
 
     public function apresentar(){
-        echo '<p>------------------------------------</p>';
+        echo '<hr>';
         echo '<p>CHEGOU A HORA! O lutador ' . $this -> getNome();
-        echo 'Veio diretamente de ' . $this -> getNacionalidade();
-        echo 'Tem ' . $this -> getIdade() . 'anos e pesa ' . $this -> getPeso() . 'kg';
-        echo '<br>Ele tem ' . $this -> getVitorias() . ' vitórias';
-        echo $this->getDerrotas() . 'derrotas e ' . $this -> getEmpates() . 'empates';
+        echo ' Veio diretamente de ' . $this -> getNacionalidade();
+        echo ' Tem ' . $this -> getIdade() . ' anos e pesa ' . $this -> getPeso() . 'kg';
+        echo '<br>Ele tem ' . $this -> getVitorias() . ' vitórias ';
+        echo $this->getDerrotas() . ' derrotas e ' . $this -> getEmpates() . ' empates.';
     }
 
     public function status(){
-        echo '<p>-------------------------------------</p>';
+        echo '<hr>';
         echo '<p>' . $this -> getNome() . ' é um peso ' . $this -> getCategoria();
         echo ' e já ganhou ' . $this -> getVitorias() . ' vezes,';
         echo ' perdeu ' . $this->getDerrotas() . ' vezes e ';
-        echo ' empatou ' . $this -> getEmpates() . ' vezes';
+        echo ' empatou ';
+        if($this -> getEmpates() == 1){
+            echo $this -> getEmpates().' vez.';
+        } else {
+            echo $this -> getEmpates().' vezes.';
+        }
     }
 
     public function ganharLuta(){
